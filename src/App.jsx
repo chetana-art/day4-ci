@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="app">
       <nav className="navbar">
-        <h2>DevOps CI Demo</h2>
+        <h2>DevOps CI Demo - cicd</h2>
 
         <div className="nav-links">
           <a href="#home">Home</a>
@@ -44,7 +44,7 @@ function App() {
 
         <div className="cards">
           <div className="card">
-            <h3>💻 React devopsS</h3>
+            <h3>💻 React devopsS - cicd</h3>
             <p>Frontend application developed using React.js.</p>
           </div>
 
