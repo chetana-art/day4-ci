@@ -44,7 +44,7 @@ function App() {
 
         <div className="cards">
           <div className="card">
-            <h3>💻 React</h3>
+            <h3>💻 React devopsS</h3>
             <p>Frontend application developed using React.js.</p>
           </div>
 
