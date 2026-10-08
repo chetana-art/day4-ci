@@ -1,4 +1,4 @@
-```yaml
+
 name: React CI/CD
 
 on:
@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
       # 1. Checkout source code
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -48,7 +47,7 @@ jobs:
           docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/reactapp:latest .
 
       # 7. Push Docker image to Docker Hub
-      - name: Push Docker Image
+      - name: Push Docker image to Docker Hub
         run: |
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/reactapp:latest
 
